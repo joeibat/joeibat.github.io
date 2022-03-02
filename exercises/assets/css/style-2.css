@@ -10,7 +10,6 @@ h1, h2, h3, h4 { width: 100% }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
-
 /* Desktops */
 @media (min-width: 768px) {
     body {
@@ -25,21 +24,34 @@ input, button, textarea, select { font: inherit }
     }
 }
 
+}
+
 
 h1 {
-    font-size: 84px;
+    font-size: 72px;
+    margin-bottom: 56px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: sans-serif;
 }
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 4px;
+    font-size: 30px;
+    margin-bottom: 64px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 h3 {
-    font-size: 24px;
-    margin-bottom: 4px;  
+    font-size: 32px;
+    margin-bottom: 4px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 22px;
 }
