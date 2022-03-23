@@ -1,33 +1,73 @@
 /*  ============= WEB BROWSER RESETS ============ */
-* { margin: 0; padding: 0; border: none }
-*, *::before, *::after { box-sizing: border-box }
-html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
-scroll-behavior: smooth; scroll-padding-top: 20px }
-body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
-min-height: 100vh; text-rendering: optimizeSpeed }  
-img { width: 100%; height: auto; display: block }
-h1, h2, h3, h4 { width: 100% }
-input, button, textarea, select { font: inherit }
+* {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+    *, *::before, *::after {
+        box-sizing: border-box
+    }
+
+html {
+    height: 100%;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px
+}
+
+body {
+    max-width: 1920px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+h1, h2, h3, h4 {
+    width: 100%
+}
+
+input, button, textarea, select {
+    font: inherit
+}
+
 
 /* ================= ENDS ================ */
 
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+@media (min-width: 768px) {
+    body {
+        padding: 4% 20%;
+    }
+}
 
 /* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+@media (max-width: 767px) {
+    body {
+        padding: 12% 8%
+    }
+}
 
 
 /* Web page */
 body {
     background-color: #FFFFBD;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Merriweather', serif;
 }
 
 /* Main heading */
 h1 {
-       
-    font-size: 84px;
+    font-size: calc(48px + (84 - 48) * ((100vw - 320px) /(1600 - 320)));
     line-height: 1.1;
     font-weight: normal;
     color: #3434B0;
@@ -38,19 +78,17 @@ h1 {
 
 /* Small headings */
 h2 {
-     
-    font-size: 26px;
-    color:#3434B0;
+    font-size: calc(18px + (26 - 18) * ((100vw - 320px) /(1600 - 320)));
+    color: #3434B0;
     line-height: 1.5;
-    margin-bottom: 24px;
+    margin-bottom: 42px;
 }
 
 /* Smaller headings */
 h3 {
-    
-    font-size: 42px;
+    font-size: calc(32px + (38 - 32) * ((100vw - 320px) /(1600 - 320)));
     color: #000;
-    letter-spacing:-1px;
+    letter-spacing: -1px;
     margin-top: 40px;
     margin-bottom: 2px;
     line-height: 1.2;
@@ -58,13 +96,13 @@ h3 {
 
 /* Text paragraphs */
 p {
-    
-    font-size: 22px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) /(1600 - 320)));
     color: #455C80;
     line-height: 1.6;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
+
 /* Images */
 img {
     margin-bottom: 42px;
