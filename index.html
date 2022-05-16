@@ -1,39 +1,202 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Home | Joe Panama</title>
-    <meta name="description" content="I'm a Customer Support Specialist from Dublin.">
-    <link rel="stylesheet" href="assets/css/global.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Panama | Web Design</title>
+    <meta name="description" content="Sample web page description goes here.">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">
+    <link rel="manifest" href="assets/img/site.webmanifest">
+
+    <!-- Preload hero image -->
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/lunevedy.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Google Fonts -->
+    <!-- Font Awesome 6 icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Line Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+          rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3DTLX59H9H"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3DTLX59H9H');</script>
 
 
 </head>
 
 
 <body>
-    <h1>Welcome</h1>
-    <h2>Joe Panama</h2>
-    <p>I created this website to showcase some of my recent web design work.</p>
-
-    <h3>Sample Web Pages</h3>
-
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-    <p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-    <p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p>
-    <p><a href="exercises/page-6.html">Ireland's Top Five Visitor Attractions</a></p>
-    <p><a href="exercises/page-7.html">Smooth Smoothies</a></p>
-    <p><a href="exercises/page-8.html">IBAT Analytics Software</a></p>
-    <p><a href="exercises/page-9.html">The Box Model</a></p>
-    <p><a href="exercises/page-10.html">Web Page With Panels</a></p>
-    <p><a href="exercises/hero-text.html">Hero block with animated text</a></p>
-    <p><a href="exercises/hero-image.html">Hero block with background image</a></p>
-    <p><a href="exercises/hero-video.html">Hero block with background video</a></p>
 
 
 
+    <nav class="container-menu menu-dark menu-desktop text-center-mobile">
+        <a href="#"><img src="assets/img/website-logo.png" alt="website logo"></a>
+        <ul>
+            <li><a href="portfolio/index.html">Portfolio</a></li>
+            <li><a href="contact/index.html" id="btn-cta"><span>Contact</span><i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+        <div class="item-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
 
+    <header class="hero-block theme-dark hero-bg text-center-desktop text-center-mobile">
+
+        <div class="container-text">
+            <h1 class="text-shadow">
+                Joe Panama<h1>
+                    <h2 class="text-shadow">A fledgling Web Designer!</h2>
+        </div>
+
+        <div class="container-btn">
+            <a href="#" class="btn btn-primary"><i class="fa-regular fa-envelope"></i><span>Get in touch</span></a>
+            <a href="#" class="btn btn-secondary"><i class="fa-regular fa-folder"></i><span>View my work</span></a>
+        </div>
+
+        <div class="container-media">
+            <img src="assets/img/home-page-hero-image.jpg" alt="Joe Panama">
+        </div>
+
+        <div class="container-overlay"></div>
+
+    </header>
+
+
+
+    <!-- main content with sections -->
+    <main>
+
+
+
+        <!-- section starts here -->
+
+        <section class="theme-light section-selector-1 container-flex">
+
+            <div class="col-1 text-center">
+                <h2>
+                    Recent projects
+                </h2>
+                <h3>
+                    Below you can see some examples of my recent work. Check out my <a href="portfolio/index.html">complete portfolio.</a>
+                </h3>
+            </div>
+
+            <div class="col-3">
+                <figure>
+                    <img src="assets/img/project-van-gogh.png" alt="Van Gogh Project">
+                </figure>
+                <h3>
+                    Vincent Van Gogh
+                </h3>
+                <p>
+                    A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.
+                </p>
+                <a href="portfolio/van-gogh/index.html" class="btn btn-primary"><span>View Project</span><i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+
+            <div class="col-3">
+                <figure>
+                    <img src="assets/img/project-smoothie.jpg" alt="Smoothie Project">
+                </figure>
+                <h3>Smooth Smoothies</h3>
+                <p>
+                    A multi-column, flexbox-based page layout and hero image with a tinted overlay.
+                </p>
+                <a href="portfolio/smoothies/index.html" class="btn btn-primary"><span>View Project</span><i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+
+            <div class="col-3">
+                <figure>
+                    <img src="assets/img/project-fashion.jpg" alt="Fashion Project">
+                </figure>
+                <h3>Snazzy Fashion</h3>
+                <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+                <a href="portfolio/fashion/index.html" class="btn btn-primary"><span>View Project</span><i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+
+        </section>
+
+        <!-- section ends here -->
+
+
+
+    </main>
+
+
+    <!-- footer -->
+
+
+    <footer class="theme-dark footer-1">
+
+        <h4>Joe Panama</h4>
+        <h5>Web Design, Devious Schemes, etc.</h5>
+
+        <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="portfolio/index.html">Portfolio</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+        </ul>
+
+        <ul class="footer-icons">
+            <li>
+            <li>
+                <a href="https://www.linkedin.com/in/joe-panama/" target_"blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/joepanama" target_"blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+
+            <li>
+                li><a href="https://github.com/joeibat/ibatpage" target_"blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+
+        <p class="privacy"><a href="#">Privacy &amp; Legal</a></p>
+
+    </footer>
+
+
+    <script src="assets/js/menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#f1d600"
+                }
+            },
+            "content": {
+                "href": "https://joeibat.github.io/privacy.html"
+            }
+        });</script>
 
 </body>
 </html>
+
