@@ -3,7 +3,7 @@ body {
     font-family: 'Outfit', sans-serif
 }
 section.theme-light.section-selector-1 {
-    background-color: var(--trend-700)
+    background-color: var(--trend-800)
 }
 
 section.theme-dark.section-selector-1 {
